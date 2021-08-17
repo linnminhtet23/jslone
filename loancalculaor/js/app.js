@@ -34,7 +34,7 @@ function calculateresult(){
     const totalpayment = document.getElementById('total-payment');
 
     const getprincipal = parseFloat(amount.value);
-    const getinterest =  parseFloat(interest.value)/12;//for one year divided by 12
+    const getinterest =  parseFloat(interest.value)/12;//divided by 12 becauser it have 12 year
     const getterm = parseFloat(terms.value);// get the number of month from range 
     // console.log(getprincipal);
 
